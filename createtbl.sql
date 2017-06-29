@@ -1,0 +1,20 @@
+create table dynamoitem (
+  id serial,
+  ambientTemp float,
+  carrier text,
+  device text,
+  logid text,
+  latitude text,
+  longitude text,
+  locationid text,
+  macAddress text,
+  mode int,
+  os text,
+  stepCounter int,
+  time timestamp,
+  wifiaplist json,
+  accelometer json,
+  gyrometer json,
+  magnetic json,
+  rotationDeg json
+);
